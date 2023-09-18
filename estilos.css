@@ -1,0 +1,33 @@
+/* Establecemos una variable con el color naranja principal */
+:root {
+    --orange: #ff9800;
+  }
+  
+  /* Aplicamos el color naranja al fondo del body */
+  body {
+    background-color: var(--orange);
+  }
+  
+  /* Aplicamos un tono más oscuro de naranja al fondo del navbar */
+  .navbar {
+    background-color: #242222;
+    
+  }
+  .navbar a {
+    color: rgb(222, 179, 146);
+  }
+ 
+  
+  
+  /* Aplicamos un borde blanco alrededor de las cards */
+  .card {
+    border: 3px solid rgb(222, 189, 143);
+  }
+  
+  /* Aplicamos un efecto de sombra a las cards */
+  .card:hover {
+    box-shadow: 5px 4px 20px 5px rgba(166, 57, 57, 0.756);
+  }
+  .container  .card .card-body{
+    background-color: rgb(229, 214, 147);
+  }
